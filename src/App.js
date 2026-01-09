@@ -1,10 +1,12 @@
 import React from "react";
 import Calculator from "./Calculator";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1 style={{ textAlign: 'center' }}>React Calculator</h1>
+
+      <Navbar />
       <Calculator />
     </div >
   );
